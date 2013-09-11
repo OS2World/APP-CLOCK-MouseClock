@@ -1,0 +1,10 @@
+mouseclock for DEBIAN
+----------------------
+
+Mouseclock -- a little program to display the current time using the X
+root cursor.
+To get a big, friendly mouse pointer :
+mouseclock -fn "-b&h-lucida-bold-i-normal-sans-18-180-75-75-p-119-iso8859-1" -fg \#ffa0a0 -bd 2 &
+We applied patch-01 of David O'Brien, which adds option -12hr.
+
+Atsuhito Kohda <kohda@pm.tokushima-u.ac.jp>, Fri, 27 Feb 1998 08:03:10 +0900

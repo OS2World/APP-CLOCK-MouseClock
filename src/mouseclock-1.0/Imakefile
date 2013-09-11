@@ -1,0 +1,12 @@
+
+        DEPLIBS = $(DEPXLIB)
+LOCAL_LIBRARIES = $(XLIB)
+	CDEBUGFLAGS =
+	CCOPTIONS = -O3 -s -pipe -Wall
+
+AllTarget(mouseclock)
+
+SimpleProgramTarget(mouseclock)
+
+arc : clean
+	(cd .. ; tar zcvf mouseclock.tar.gz mouseclock)

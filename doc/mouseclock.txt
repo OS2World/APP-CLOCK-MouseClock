@@ -1,0 +1,16 @@
+mouseclock 1.0 (compiled for OS/2)
+
+  A little program to display the current time using the X root cursor.
+
+  This program was downloaded from Debian GNU Linux source archive, and
+compiled with
+	OS/2 WARP J4.0
+	XFree86/OS2-3.3.3.1
+	emx 0.9d
+
+  For more informations, see README and others in XFree86/src/mouseclock-
+1.0 directory.
+
+---							  Kyosuke Tokoro
+						    NBG01720@nifty.ne.jp
+			   http://www.vector.co.jp/authors/VA000199/os2/

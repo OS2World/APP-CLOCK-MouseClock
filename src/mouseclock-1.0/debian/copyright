@@ -1,0 +1,20 @@
+This package was debianized by Atsuhito Kohda kohda@pm.tokushima-u.ac.jp on
+Fri, 27 Feb 1998 08:03:10 +0900.
+
+It was downloaded from <ftp://sunsite.sut.ac.jp/pub/archives/linux/X11/clocks/>
+
+Copyright:
+
+This program is under the GNU GENERAL PUBLIC LICENSE.
+See COPYING.
+
+Graeme Gill <graeme@colorstar.com.au>
+
+-------------------------------------
+About the patch:
+
+The patch-01 applied was downloaded from;
+ftp://ftp.kuis.kyoto-u.ac.jp/BSD/FreeBSD/ports-current/x11/mouseclock/patches
+
+The patch is written by Mr. David O'Brien (obrien@NUXI.com  -or- 
+obrien@FreeBSD.org) and is under GPL (if not, under BSD).

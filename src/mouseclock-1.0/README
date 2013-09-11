@@ -1,0 +1,37 @@
+-*- Text -*- Time-stamp: <96/05/05 19:05:14 js>
+
+Mouseclock -- a little program to display the current time using the X
+root cursor.
+
+This program is under the GNU GENERAL PUBLIC LICENSE.
+
+How to read the doc ? ;)
+# xmkmf (if you don't use gcc and don't keep X includes & lib in /usr/X11)
+# make
+# ./mouseclock -h
+
+Suggestion of options, to get a big, friendly mouse pointer :
+mouseclock -fn -*-lucida-bold-i-*-*-18-*-*-*-*-*-*-* -fg \#ffa0a0 -bd 2
+
+	Please note that some X servers may restrict the maximum size
+of the pointer, because they are using hardware sprites (lutins
+materiels.) On XFree86 3.1.2 & Cirrus Logic video card, adding an
+'Option "sw_cursor"' to the XF86Config will force the use of a
+software sprite. I don't know for other configurations.
+
+This program was tested under
+- linux v1.3/XFree86 v3
+- SunOS 4.1.4/X11R4
+with gcc, and should probably compile ok on any reasonable platform.
+
+I took the NameToXColor function from "xancur", a program by
+Christopher Alexander North-Keys <erlkonig@gnu.ai.mit.edu>, and maybe
+some other bits (I really don't remember. Maybe the cmdline options
+handling ?)
+
+--
+Jérôme Santini <santini@chambord.univ-orleans.fr>, Mars 1996
+----------------------------------------------------------------------
+Sais-tu comment on reconnaît un légume ? Il ne répond pas quand on lui
+parle.
+                "Oui Oui fait de l'informatique", mai 1995.

@@ -1,0 +1,11 @@
+Source: mouseclock
+Section: x11
+Priority: optional
+Maintainer: Atsuhito Kohda <kohda@pm.tokushima-u.ac.jp>
+Standards-Version: 2.3.0.1
+
+Package: mouseclock
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Displays the current time using the X root cursor.
+ When the cursor is on root in X, the cursor displays the current time.

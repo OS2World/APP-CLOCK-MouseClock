@@ -1,0 +1,22 @@
+mouseclock (1.0-3) unstable; urgency=low
+
+  * changes copyright.
+
+ -- Atsuhito Kohda <kohda@pm.tokushima-u.ac.jp>  Wed,  1 Apr 1998 12:09:39 +0900
+
+mouseclock (1.0-2) unstable; urgency=low
+
+  * apply patch for 12-hour format.
+
+ -- Atsuhito Kohda <kohda@pm.tokushima-u.ac.jp>  Sat,  7 Mar 1998 09:04:36 +0900
+
+mouseclock (1.0-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Atsuhito Kohda <kohda@pm.tokushima-u.ac.jp>  Fri, 27 Feb 1998 08:03:10 +0900
+
+Local variables:
+mode: debian-changelog
+add-log-mailing-address: "kohda@pm.tokushima-u.ac.jp"
+End:
